@@ -40,38 +40,16 @@ export const Hero = () => {
         style={{ position, scale, x: "-50%" }}
         className="fixed left-1/2 z-10 flex flex-col items-center"
       >
-        <p className="mb-2 text-2xl tracking-tight font-bold">
+        <p className="mb-2 mt-5 text-2xl tracking-tight font-bold">
           <span className="font-manrope">Quagmire Beta</span>
         </p>
         <p className="mb-8 text-sm  font-normal opacity-50">
           <span className="font-manrope">A Nights & weekends project</span>
         </p>
-        <p className="mb-8 text-center text-xs font-manrope text-text">
-          by{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noopener nofollow noreferrer"
-          >
-            Samrat
-          </a>
-          ,
-          <br />
-          rebuilt by{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noopener nofollow noreferrer"
-          >
-            Encom Designs
-          </a>
-        </p>
-
-
-        <h1 className="mb-12 text-center font-body text-3xl leading-[1]">
+        <h1 className="mb-12  text-center font-body text-3xl font-semibold leading-[1]">
           Simplifiles
           <br />
-          Learning
+          Learning.
         </h1>
 
         <a href="#" className="flex items-center text-lg text-primary">
