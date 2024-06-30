@@ -5,6 +5,7 @@ import { MoreFeatures } from "@/sections/more-features";
 import { NoLockin } from "@/sections/no-lockin";
 import { SamePage } from "@/sections/same-page";
 import { StreamlinedExperience } from "@/sections/streamlined-experience";
+import { Sticky } from "@/sections/sticky"
 import Head from "next/head";
 
 export default function Home() {
@@ -18,8 +19,8 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
+      <Sticky />
       <main>
-        <div className="font-bold">sticky</div>
         <Hero />
         <div className="relative z-10 w-full overflow-x-clip">
           <Collaboration />
