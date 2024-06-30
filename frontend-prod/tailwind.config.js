@@ -9,6 +9,7 @@ module.exports = {
         heading: "var(--color-heading)",
         text: "var(--color-text)",
         background: "var(--color-background)",
+        'purpule': '#644ed7',
       },
       fontFamily: {
         body: "var(--font-inter), sans-serif",
