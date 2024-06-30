@@ -74,7 +74,7 @@ export const Collaboration = () => {
             <motion.div style={{ scale, x, y }} className="origin-top">
               <motion.img
                 style={{ opacity }}
-                src="/bulidspace.png"
+                src="/carbon.svg"
                 className="h-auto max-h-none w-[70vw]"
               />
               <motion.div
